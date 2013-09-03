@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if [ -f $1/index.html]; then
+if [ -f $1/index.html ]; then
   echo "Static" && exit 0
 else
   echo "no" && exit 1
